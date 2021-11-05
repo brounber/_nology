@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <form action="https://formspree.io/f/xzbyywwz" method="POST">
+    <div>
+      <label for="fullName">Full name:</label><br>
+      <input type="text" placeholder="First Name" name="fullName" id="fullName" required>
+    </div>
+    <div>
+      <label for="age">Age:</label>
+      <br>
+      <input type="number" id="age" name="age" min="1" max="100">
+    </div>
+    <div>
+      <label for="state">State:</label><br>
+      <select id="state" name="state">
+      <option value="">NSW</option>
+      <option value="">QLD</option>
+      <option value="">NT</option>
+      <option value="">WA</option>
+      <option value="">SA</option>
+      <option value="">VIC</option>
+      <option value="">TAS</option>
+      <option value="">CAN</option>
+    </select>
+    </div>
+    <div>
+      <label for="email">Email:</label><br>
+      <input type="email" placeholder="Email" name="email" id="email" required>
+    </div>
+    <div>
+      <label for="tel">Contact Number:</label><br>
+      <input type="tel" placeholder="Contact Number" name="tel" id="tel" pattern="[0-9]{10}" required>
+    </div>
+    <div>
+      <label for="message">Message:</label>
+      <br/>
+      <textarea cols="30" rows="10" id="message">
+        Enter Text Here
+      </textarea>
+      <div>
+        <input type="submit" value="Submit" required>
+      </div>
+    </div>
+    </form>
+</body>
+</html>

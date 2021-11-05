@@ -1,0 +1,41 @@
+.box {
+  border:2px solid black;
+}
+
+.box__parapgraph {
+  font-weight:bold;
+}
+
+.box__parapgraph--red {
+  color:red;
+}
+
+.box__parapgraph--arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  background-color: chocolate;
+}
+
+.btn--alert {
+  border:2px solid hotpink;
+}
+
+.btn__text{
+  font-weight: bold;
+  color: white;
+}
+
+.btn__text--primary {
+  font-style: italic;
+}
+
+.btn__text--secondary {
+  color: green;
+}
+
+.btn__text--primary:hover {
+  background-color: hotpink;
+}
+

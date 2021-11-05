@@ -1,0 +1,20 @@
+form > input:enabled {
+  
+ border:1px solid gray;
+}
+
+form > input:disabled {
+  border: 2px dashed darkgray
+}
+
+form > input :required {
+  border: 2px Solid red;
+}
+
+form > button:disabled {
+  border: 2px Solid blue;
+}
+
+form > button:enabled {
+  border: 2px dashed blue;
+}

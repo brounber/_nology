@@ -1,0 +1,51 @@
+/*div > p:hover {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+*/
+
+.wrapper > p:first-of-type {
+  color: green;
+}
+
+.wrapper > p:nth-of-type(2) {
+  color: red;
+}
+
+.wrapper > p:nth-last-of-type(2) {
+  color: blue;
+}
+
+.wrapper > p:last-of-type {
+  color: grey;
+}
+
+.wrapper > h1:only-of-type {
+  color: red;
+}
+
+/* unvisited link */
+a:link {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: brown;
+}
+
+/* cliked on link*/
+a:hover {
+  color: plum;
+  background-color: aquamarine;
+  cursor: crosshair;
+}
+
+/* clicked on link*/
+a:active {
+  color: black;
+}

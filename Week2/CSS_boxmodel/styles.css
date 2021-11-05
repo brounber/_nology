@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+div {
+  border: 2px solid white
+}
+
+p {
+  font-size: 24px;
+  color: white;
+  border: 5px solid hotpink;
+  margin: 25px 50px 10px 15px;
+  padding: 25px;
+  margin: auto;
+}

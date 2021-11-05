@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap:wrap;
+  width: 900px;
+  height: 300px;
+}
+
+p {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:33.3%;
+  height: 100%;
+  margin:0px;
+}
+
+#cardOne {
+  background-color: lightblue;
+}
+
+#cardTwo {
+  background-color: coral;
+}
+
+#cardThree {
+  background-color: lightpink;
+}
+
+#cardFour {
+  background-color: red;
+}

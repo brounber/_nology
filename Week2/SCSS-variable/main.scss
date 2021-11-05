@@ -1,0 +1,10 @@
+$primary-header-color: hotpink;
+
+h1 {
+  $primary-header-color: chocolate;
+  color: $primary-header-color;
+}
+
+h2 {
+  color: $primary-header-color;
+}

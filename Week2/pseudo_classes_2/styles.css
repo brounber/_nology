@@ -1,0 +1,11 @@
+for > input:optional {
+  border: 2px solid hotpink;
+}
+
+form > input:disabled {
+  border: 2px dashed darkgray
+}
+
+form > input :required {
+  border: 2px dashed blue;
+}

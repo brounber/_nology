@@ -1,0 +1,8 @@
+@use "./Partials/mixins";
+@use "./Partials/style";
+@use "./Partials/typography";
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

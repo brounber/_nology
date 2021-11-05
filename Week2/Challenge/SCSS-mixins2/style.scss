@@ -1,0 +1,100 @@
+
+@use "./Partials/mixins";
+
+.box {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+      "artHeader artHeader artHeader bookHeader"
+      "jeff tom tom book"
+      "nina tom tom book"
+      "nina glenn jamie book";
+  gap: 20px;
+}
+
+.header {
+  height: 60px;
+  margin: 0px;
+}
+
+.book-img {
+  width: 300px;
+  height: 500px;
+}
+
+.l-img {
+  width: 250px;
+  height: 250px;
+}
+
+.m-img {
+  width: 200px;
+  height: 200px;
+}
+
+.sm-img {
+  //@include mixins.size-modifier;
+  width: 180px;
+  height: 180px;
+}
+
+.space-between {
+  @include mixins.flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.box--centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#artistHeader {
+  grid-area: artHeader;
+}
+
+#bookHeader {
+  grid-area: bookHeader;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#jeff {
+  grid-area: jeff;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nina {
+  grid-area: nina;
+  flex-direction: column;
+  text-align: center;
+}
+
+#tom {
+  grid-area: tom;
+  @include mixins.space-around;
+
+}
+
+#glenn {
+  grid-area: glenn;
+  @include mixins.space-around;
+}
+
+#jamie {
+  grid-area: jamie;
+  @include mixins.flex;
+}
+
+#book {
+  grid-area: book;
+}

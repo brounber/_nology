@@ -1,0 +1,94 @@
+@use "./partials/devices" as media;
+
+.flex {
+  display:flex;
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+
+  &__stripe {
+    @include media.phone {
+      height: 33.3%;
+      width: 100%;
+      border: 2px solid black;
+    }
+    &--One  {
+      @include media.phone {
+        height: 33.3%;
+        width: 100%;
+        background-color: black;
+      }
+      @include media.tablet {
+        height: 33.3%;
+        width: 100%;
+        background-color: black;
+      }
+      @include media.tablet-landscape {
+        height: 33.3%;
+        width: 100%;
+        background-color: green;
+      }
+      }
+    &--Two  {
+      @include media.phone {
+        height: 33.3%;
+        width: 100%;
+        background-color: yellow;
+      }
+      @include media.tablet {
+        height: 33.3%;
+        width: 100%;
+        background-color: black;
+      }
+      @include media.tablet-landscape {
+        height: 33.3%;
+        width: 100%;
+        background-color: red;
+      }
+    }
+    &--Three  {
+      @include media.phone {
+        height: 33.3%;
+        width: 100%;
+        background-color: red;
+      }
+      @include media.tablet {
+        height: 33.3%;
+        width: 100%;
+        background-color: white;
+      }
+      @include media.tablet-landscape {
+        height: 33.3%;
+        width: 100%;
+        background-color: green;
+      }
+    }
+    }
+}
+
+
+
+// #germanFlag {
+//   @include media.phone {
+//     #germanFlag {
+//       content:url(./img/germany-flag-small.jpg);
+//     }
+//   }
+
+// }
+
+// #belgianFlag {
+//   @include media.tablet {
+//     #belgianFlag{
+//       content:url(./img/belgium-flag-icon-256.png);
+//     }
+//   }
+// }
+
+// #irishFlag {
+//   @include media.tablet-landscape {
+//     content:url{
+//       background-image: url(./img/ireland-flag-small.jpg);
+//     }
+//     }
+//   }

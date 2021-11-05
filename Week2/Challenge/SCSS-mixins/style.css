@@ -1,0 +1,51 @@
+.flex-container {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "one two four" "one three four";
+  gap: 10px;
+  margin: 20px;
+}
+
+#oneSection {
+  border: 2px solid black;
+  padding: 10px;
+  grid-area: one;
+}
+
+#twoSection {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  grid-area: two;
+}
+
+#threeSection {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  grid-area: three;
+}
+
+#fourSection {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  grid-area: four;
+}

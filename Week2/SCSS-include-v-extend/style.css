@@ -1,0 +1,36 @@
+.flex-container, .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  width: 500px;
+  height: 400px;
+  border: 2px solid black;
+}
+
+.background-style, .chip, .btn {
+  background-color: hotpink;
+  color: black;
+}
+
+.btn {
+  font-weight: bold;
+}
+.btn--sm {
+  font-size: 0.7rem;
+}
+.btn--lg {
+  font-size: 1.2rem;
+}
+
+.chip {
+  border-radius: 10px;
+}
+.chip--sm {
+  font-size: 0.5rem;
+}
+.chip--lg {
+  font-size: 1rem;
+}

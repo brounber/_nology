@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS-Grid</title>
+</head>
+<body>
+
+  <!--<article class="grid-container">
+    <section class="card">Card 1</section>
+    <section class="card">Card 2</section>
+    <section class="card">Card 3</section>
+
+  </article> -->
+
+
+  <div class="second-grid">
+    <section class="card" id="firstSection">Heading</section>
+    <section class="card" id="secondSection">Card 5</section>
+    <section class="card" id="thirdSection">Card 6</section>
+    <article id="myArticle">My Article</article>
+  </div>
+  
+  <style>
+    .second-grid {
+      display:grid;
+      /*border: 2px solid red;*/
+      grid-template-columns: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+      grid-template-areas: 
+        "one one one Article"
+        "two two two ."
+        "three three three .";
+      gap: 20px;
+    }
+
+    .card {
+      height:100px;
+    }
+
+    #firstSection {
+      background-color:hotpink;
+      grid-area: one;
+
+
+    }
+    #secondSection {
+      background-color:greenyellow;
+      grid-area: two;
+
+    }  
+    #thirdSection {
+      background-color:orangered;
+      grid-area: three;
+
+    }   
+    #myArticle {
+      background-color:bisque;
+      grid-area: Article;
+    }
+
+    /*.grid-container > section {
+      border: 2px solid black;
+      background-color:#7fffd4;
+      height: 100px;
+      padding-top: 10px;
+    }*/
+  </style>
+</body>
+</html>

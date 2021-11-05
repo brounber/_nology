@@ -1,0 +1,16 @@
+@use "./Partials/mixins";
+@use "./Partials/style";
+@use "./Partials/typography";
+
+
+
+
+
+.button {
+  @include font-family;
+  &__button1 {
+    @include border;
+  }
+ 
+}
+

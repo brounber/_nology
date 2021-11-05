@@ -1,0 +1,33 @@
+main {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+main > .contact-form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+input[type="text"], textarea {
+
+  background-color: darkgray; 
+
+}
+
+input[type="number"], age {
+
+  background-color: darkcyan; 
+
+}
+
+input[type="email"], email {
+
+  background-color: darkred; 
+
+}
+
+
+
+

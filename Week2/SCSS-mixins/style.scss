@@ -1,0 +1,85 @@
+//$line: line-through;
+//$secondary-font: 'Times New Roman', Times, serif;
+//$primary-font: Arial, Helvetica, sans-serif;
+//$primary-text-color:blue;
+//$primary-border-color:green;
+@use "./partials/palette";
+@use "./partials/typography";
+@use "./module/button";
+
+@mixin flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav {
+  @include flex;
+}
+
+
+.firstBox {
+  border: 3px dashed palette.$primary-border-color;
+  &__para-blue-line {
+    color: palette.$primary-text-color;
+    //text-decoration-line: line-through; 
+    text-decoration-line: typography.$line;
+  }
+}
+
+.secondBox {
+  border: 2px solid rgb(48, 47, 44);
+  &__para-blue-line-right {
+    color: palette.$primary-text-color;
+    //text-decoration-line: line-through;
+    text-decoration-line: typography.$line;
+    text-align: right;
+  }
+  &__header {
+    text-align: center;
+  }
+}
+
+.box {
+  border: 3px solid black;
+  
+  &__thirdBox__header {
+    &--blue--arial {
+      color:palette.$primary-text-color;
+      font-family: typography.$primary-font;
+    }
+    
+  }
+
+  &__forthBox__header {
+    &--blue--arial {
+      color:palette.$primary-text-color;
+      font-family: typography.$primary-font;
+    }
+  }
+  p {
+    color: palette.$secondary-text-color;
+    text-decoration-line: underline;
+    
+  }
+  li {
+    list-style-type: typography.$primary-list-decorations;
+    font-family: typography.$secondary-font;
+  }
+
+  &__thirdBox {
+    margin-top: 100px;
+  }
+  
+  
+}
+.coralandbold {
+  color: palette.$primary-element-color;
+  font-weight: bold;
+}
+
+.brown {
+  color: palette.$secondary-element-color;
+}
+
+

@@ -1,0 +1,45 @@
+@mixin borderSection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.flex-container {
+  @include borderSection;
+  margin: 20px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+    "one two four"
+    "one three four";
+  gap: 10px;
+  margin: 20px;
+}
+
+#oneSection {
+  border: 2px solid black;
+  padding: 10px;
+  grid-area: one;
+}
+
+#twoSection {
+  @include borderSection;
+  grid-area: two;
+}  
+
+#threeSection {
+  @include borderSection;
+  grid-area: three;
+}  
+
+#fourSection {
+  @include borderSection;
+  flex-direction: column;
+  grid-area: four;
+}

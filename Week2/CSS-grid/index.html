@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS-Grid</title>
+</head>
+<body>
+  <article class="grid-container">
+    <section class="card">Card 1</section>
+    <section class="card">Card 2</section>
+    <section class="card">Card 3</section>
+  </article>
+  <style>
+    .grid-container {
+      display:grid;
+      border: 2px solid red;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto auto;
+      gap: 10px;
+
+    }
+
+    .grid-container > section {
+      border: 2px solid black;
+    }
+  </style>
+</body>
+</html>

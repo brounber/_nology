@@ -1,0 +1,74 @@
+.card {
+  /*border: 2px solid black;*/
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "one one one two"
+    "three four four five"
+    "six four four five"
+    "six four four five"
+    "six seven eight five";
+  gap: 5px;
+  margin: 5px;
+}
+
+#firstsection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: one;
+  
+}
+#secondsection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: two;
+
+}  
+#thirdsection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: three;
+
+}   
+#forthsection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: four;
+}
+#fifthsection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: five;
+}
+#sixthsection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: six;
+}  
+#seventhsection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: seven;
+}   
+#eigththsection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: eight;
+}

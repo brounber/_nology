@@ -1,0 +1,99 @@
+.box {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "artHeader artHeader artHeader bookHeader" "jeff tom tom book" "nina tom tom book" "nina glenn jamie book";
+  gap: 20px;
+}
+
+.header {
+  height: 60px;
+  margin: 0px;
+}
+
+.book-img {
+  width: 300px;
+  height: 500px;
+}
+
+.l-img {
+  width: 250px;
+  height: 250px;
+}
+
+.m-img {
+  width: 200px;
+  height: 200px;
+}
+
+.sm-img {
+  width: 180px;
+  height: 180px;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.box--centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#artistHeader {
+  grid-area: artHeader;
+}
+
+#bookHeader {
+  grid-area: bookHeader;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#jeff {
+  grid-area: jeff;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nina {
+  grid-area: nina;
+  flex-direction: column;
+  text-align: center;
+}
+
+#tom {
+  grid-area: tom;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#glenn {
+  grid-area: glenn;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#jamie {
+  grid-area: jamie;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#book {
+  grid-area: book;
+}

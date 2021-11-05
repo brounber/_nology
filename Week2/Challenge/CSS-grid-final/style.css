@@ -1,0 +1,51 @@
+.flex-container {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+.grid {
+  /*border: 2px solid black;*/
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "one two four"
+    "one three four";
+  gap: 10px;
+  margin: 20px;
+}
+
+#oneSection {
+  border: 2px solid black;
+  padding: 10px;
+  grid-area: one;
+
+
+}
+#twoSection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: two;
+
+}  
+#threeSection {
+  border: 2px solid black;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  grid-area: three;
+
+}   
+#fourSection {
+  border: 2px solid black;
+  grid-area: four;
+  padding: 10px;
+  text-align: center;
+  
+
+}

@@ -1,0 +1,25 @@
+.firstbox {
+  border: 3px dashed green;
+}
+
+.secondBox {
+  border: 2px solid orange;
+}
+
+.firstbox--linethrough {
+  text-decoration-line: line-through;
+  text-decoration-color: blue ;
+}
+  
+.secondBox--linethrough {
+  text-decoration-line: line-through;
+  text-decoration-color: blue ;
+}
+
+.secondBox--alightright {
+  text-align: right;
+}
+
+.secondBox--center {
+  text-align: center;
+}

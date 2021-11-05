@@ -1,0 +1,12 @@
+@use "Partials/typography.scss";
+@use "Partials/style.scss";
+
+@mixin font-family {
+  
+  font-family: typography.$primary-font-family;
+  font-weight: typography.$primary-font-weight;
+}
+
+@mixin border {
+  border: $primary-button-border;
+}

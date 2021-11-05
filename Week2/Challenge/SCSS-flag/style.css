@@ -1,0 +1,76 @@
+.flex {
+  display: flex;
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+}
+@media only screen and (max-width: 600px) {
+  .flex__stripe {
+    height: 33.3%;
+    width: 100%;
+    border: 2px solid black;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .flex__stripe--One {
+    height: 33.3%;
+    width: 100%;
+    background-color: black;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .flex__stripe--One {
+    height: 33.3%;
+    width: 100%;
+    background-color: black;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .flex__stripe--One {
+    height: 33.3%;
+    width: 100%;
+    background-color: green;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .flex__stripe--Two {
+    height: 33.3%;
+    width: 100%;
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .flex__stripe--Two {
+    height: 33.3%;
+    width: 100%;
+    background-color: black;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .flex__stripe--Two {
+    height: 33.3%;
+    width: 100%;
+    background-color: red;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .flex__stripe--Three {
+    height: 33.3%;
+    width: 100%;
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .flex__stripe--Three {
+    height: 33.3%;
+    width: 100%;
+    background-color: white;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .flex__stripe--Three {
+    height: 33.3%;
+    width: 100%;
+    background-color: green;
+  }
+}

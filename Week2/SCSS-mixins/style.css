@@ -1,0 +1,70 @@
+.btn__border--green {
+  border-color: green;
+}
+.btn__text {
+  font-family: "Times New Roman", Times, serif;
+}
+.btn__text--italic {
+  font-style: italic;
+}
+.btn__text--notUnderlined {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.firstBox {
+  border: 3px dashed green;
+}
+.firstBox__para-blue-line {
+  color: blue;
+  text-decoration-line: line-through;
+}
+
+.secondBox {
+  border: 2px solid #302f2c;
+}
+.secondBox__para-blue-line-right {
+  color: blue;
+  text-decoration-line: line-through;
+  text-align: right;
+}
+.secondBox__header {
+  text-align: center;
+}
+
+.box {
+  border: 3px solid black;
+}
+.box__thirdBox__header--blue--arial {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box__forthBox__header--blue--arial {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box p {
+  color: red;
+  text-decoration-line: underline;
+}
+.box li {
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;
+}
+.box__thirdBox {
+  margin-top: 100px;
+}
+
+.coralandbold {
+  color: coral;
+  font-weight: bold;
+}
+
+.brown {
+  color: brown;
+}

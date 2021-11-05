@@ -1,0 +1,21 @@
+@use "../partials/palette";
+@use "../partials/typography";
+
+.btn {
+  &__border--green {
+    border-color: palette.$primary-border-color;
+  }
+  &__text {
+    font-family: typography.$secondary-font;
+
+    &--italic{
+      font-style: italic;
+      
+    }
+    
+    &--notUnderlined {
+      text-decoration: none;
+
+    } 
+  }
+}

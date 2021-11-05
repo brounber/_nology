@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./contact.css">
+  <title>Contact Us</title>
+</head>
+<body>
+  <nav>
+    <ul class="navbar">
+      <li>
+        <a href="home.html">Home</a>
+      </li>
+      <li>
+        <a href="./Contact-Us.html">Contact Us</a>
+      </li>
+      <li>
+        <a href="./About-Us.html">About Us</a>
+      </li>
+      <li>
+        <a href="./Bookings.html">Bookings</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <main>
+    <form class="contact-form">
+      <!--First Name-->
+      <label for="firstName">First name:</label>
+      <input type="text" placeholder="First Name" name="firstName" id="firstName" required>
+      <!--Last Name-->
+      <label for="lastName">Last name:</label>
+      <input type="text" placeholder="Last Name Name" name="lastName" id="fullName" required>
+      <!--age-->
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="1" max="100">
+      <!--State-->
+      <label for="state">State:</label>
+      <select id="state" name="state">
+        <option value="">NSW</option>
+        <option value="">QLD</option>
+        <option value="">NT</option>
+        <option value="">WA</option>
+        <option value="">SA</option>
+        <option value="">VIC</option>
+        <option value="">TAS</option>
+        <option value="">CAN</option>
+      </select>
+      <!--Email-->
+      <label for="email">Email:</label>
+      <input type="email" placeholder="Email" name="email" id="email" required>
+      <!--Message-->
+      <label for="message">Message:</label>
+      <textarea cols="10" rows="5" id="message">
+        Enter Text Here
+      </textarea>
+      <br>
+      <!--Submit button-->
+      <input type="submit" value="Submit" required>
+    </form>
+  </main>
+
+</body>
+</html>
