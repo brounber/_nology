@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creating a Form</title>
+</head>
+<body>
+  <h1>Challenge: Create a form including the following inputs:</h1>
+  <form action="" method="POST">
+    <div>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required >
+    </div>
+    <div>
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required >
+    </div>
+    <div>
+      <label for="state">State:</label>
+      <select name="state" id="state" required >
+        <option value="NSW">NSW</option>
+        <option value="QLD">QLD</option>
+        <option value="VIC">VIC</option>
+      </select>
+    </div>
+    <div>
+      <label for="Email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="Message">Message:</label>
+      <textarea>This is a text area input field.</textarea>
+    </div>
+    <div>
+      <label for="telephone">Telephone:</label>
+      <input type="tel" id="tel" name="tel" pattern="[0-9]{10}">
+    </div>
+    <div>
+      <input type="submit" calue="Submit">
+    </div>
+  </form>
+  
+</body>
+</html>
