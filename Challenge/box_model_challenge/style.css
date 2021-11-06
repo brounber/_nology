@@ -1,0 +1,21 @@
+
+.Box {
+  background-color: greenyellow;
+  border: 2px solid coral;
+}
+
+.innerBox {
+  background-color: hotpink;
+  border: 2px solid coral;
+  margin: 20px 1px;
+  padding-bottom: 25px;
+}
+
+.innerBox > h1 {
+  margin-left: 25px;
+}
+
+.innerBox > p {
+  margin-left: 50px;
+}
+
