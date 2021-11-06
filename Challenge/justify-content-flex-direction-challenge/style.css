@@ -3,25 +3,20 @@
   display: flex;
   justify-content: center;
   flex-direction: column-reverse;
-  
 }
-
-
 
 .flex-two {
   display: flex;
   flex-direction: row-reverse;  
   align-content: center; 
-  justify-content: center;
-  
+  justify-content: center; 
 }
 
 .flex-one {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;  
-  justify-content: center;
-  
+  justify-content: center; 
 }
 
 .samebox {
@@ -32,7 +27,6 @@
   width: 100px;
   margin: 20px;
 }
-
 
 #box1 {
   background-color: aqua;
