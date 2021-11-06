@@ -1,0 +1,25 @@
+.box {
+  border:2px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box > h1 {
+  color: blue;
+}
+
+.box > p {
+  color: red
+}
+
+.box li {
+  list-style-type: none;
+}
+
+p {
+  color:brown;
+}
+
+div + p {
+  color: coral;
+  font-weight: bold;
+}
