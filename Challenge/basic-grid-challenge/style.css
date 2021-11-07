@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap:10px
+   
+}
+
+.box {
+  height: 200px;
+  background-color: aquamarine;
+  padding-top: 50px;
+}
