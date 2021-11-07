@@ -1,0 +1,15 @@
+.navBar {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  text-decoration-line: none;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+body {
+  margin: 0px 0px 0px;
+}
