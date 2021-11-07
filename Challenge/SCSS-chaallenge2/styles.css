@@ -1,0 +1,36 @@
+.box {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box--flex-mod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box__card {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+.box__card--flex-mod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__img--sm {
+  width: 200px;
+  height: 200px;
+}
+.card__img--md {
+  width: 500px;
+  height: 500px;
+}
+.card__img--lg {
+  width: 750px;
+  height: 750px;
+}
+.card__para {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+}

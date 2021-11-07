@@ -1,0 +1,65 @@
+@use "./mixins";
+
+@mixin img-mod(
+    $sm-w: 200px,
+    $sm-h: 200px,
+    $md-w: 500px,
+    $md-h: 500px,
+    $lg-w: 750px,
+    $lg-h: 750px
+) {
+    &--sm {
+        width: $sm-w;
+        height: $sm-h;
+    }
+
+    &--md {
+        width: $md-w;
+        height: $md-h;
+    }
+
+    &--lg {
+        width: $lg-w;
+        height: $lg-h;
+    }
+}
+
+@mixin flex-mod($justify-content: center, $align-items: center) {
+    &--flex-mod {
+        display: flex;
+        justify-content: $justify-content;
+        align-items: $align-items;
+    }
+}
+
+@mixin flex-dir($flex-direction: row) {
+    &--flex-dir {
+        flex-direction: $flex-direction;
+    }
+}
+
+@mixin border-space {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.box {
+    @include flex-mod;
+    @include mixins.font-family;
+
+    &__card {
+        @include border-space;
+        @include flex-mod;
+    }
+}
+
+.card {
+    &__img {
+        @include img-mod;
+    }
+
+    &__para {
+        @include border-space;
+    }
+}

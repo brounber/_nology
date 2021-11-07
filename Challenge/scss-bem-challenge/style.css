@@ -1,0 +1,41 @@
+.topBox {
+  border: 3px dashed green;
+}
+
+.middleBox {
+  border: 3px solid orange;
+}
+.middleBox__header--center {
+  text-align: center;
+}
+.middleBox__para--blueRight {
+  color: blue;
+  text-align: right;
+  text-decoration-line: line-through;
+}
+
+.bottomBox {
+  border: 3px solid black;
+}
+.bottomBox--margin {
+  margin-top: 50px;
+}
+.bottomBox__header--blueArial {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bottomBox__paragraph--redUnderline {
+  color: red;
+  text-decoration-line: underline;
+}
+.bottomBox__unorderedList--remove {
+  list-style-type: none;
+}
+
+.para__text--coralBold {
+  color: coral;
+  font-weight: bold;
+}
+.para__text--brown {
+  color: brown;
+}

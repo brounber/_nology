@@ -1,0 +1,54 @@
+.topBox {
+  border: 3px dashed green;
+}
+
+.middleBox {
+  border: 3px solid orange; 
+  &__header {
+    &--center {
+      text-align: center;
+    }
+  }
+  &__para {
+    &--blueRight {
+      color: blue;
+      text-align: right;
+      text-decoration-line: line-through;
+    }
+  }
+}
+
+.bottomBox {
+  border: 3px solid black;
+  &--margin {
+    margin-top: 50px;
+  }
+  &__header {
+    &--blueArial{
+      color: blue;
+      font-family: Arial, Helvetica, sans-serif;
+    }  
+  }
+  &__paragraph {
+    &--redUnderline {
+      color: red;
+      text-decoration-line: underline;
+    }
+  }
+  &__unorderedList {
+    &--remove {
+      list-style-type: none;
+    }
+  }
+}
+.para {
+  &__text {
+    &--coralBold {
+      color: coral;
+      font-weight: bold;
+    }
+    &--brown {
+      color: brown;
+    }
+  }
+}
