@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booleans & booleans expression</title>
+</head>
+<body>
+  <script>
+    //basic comparator
+
+    //Equal
+    console.log("Equal", 7==7);
+    console.log("Equal", 7 =="7"); 
+    console.log("Equal: Typed", 13 === "13"); //fales as its compares types
+    console.log("Equal: Typed", 13 === 13); //true
+
+    // not equal
+    console.log("Not Equal", 8 != 8);
+    console.log("Not Equal", 8 != "8");
+    console.log("Not Equal: Typed", 7 !== "7");
+
+    // Greater than, less than
+    console.log("GT", 5 > 3);
+    console.log("GT", 5 > 6);
+    
+    // Less than
+    console.log("LT", 5<3);
+    console.log("LT", 10 <21);
+    
+    // great and equal to 
+    console.log("GTE", 12 >= 15);
+    console.log("LTE", 12 <= 15);
+    console.log("GTE", 12 >= 11);
+
+    //multiple expression handling
+    console.log("AND", 3 < 5 && 6 < 8);
+    console.log("AND", 3 < 5 && 6 < 4);
+    console.log("AND", 3 == 3 && 7 > 5 && 13 === "13");
+
+    //|| : or operator
+    console.log("OR", 3 < 5 || 6 < 8);
+    console.log("OR", 3 < 2 || 6 < 8);
+    console.log("AND OR", 3 < 5 && (6 < 3 || 5 > 3));
+    console.log("AND OR", 3 < 5 && 6 < 3 || 5 > 3);
+
+    // Trutyhy / falsey values
+    // Falsey > return false when evaluated 
+      //NaN
+      // null
+      // undefined
+      // 0
+      // "" (empty string)
+      // false
+
+    let x = 5;
+    console.log(x || 5 < 6);
+    console.log(5 < 6 || x);
+    console.log(x && 6 < 6);
+    console.log(!x && 6 < 6);
+
+    let myString = "string"
+    console.log(!myString);
+    console.log(myString || 7 > 5);
+  </script>
+  
+</body>
+</html>

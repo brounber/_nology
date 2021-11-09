@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Control Flow</title>
+</head>
+<body>
+  <script>
+    //if else statement
+    // if (condition to check[boolean expression]) {
+    //  this code is going to excute when $expression is true
+    //}
+    const number = 5;
+    if (number) {
+      console.log("X is a truthy value")
+    } else {
+      console.log("X is a falsey value")
+    }
+    const number1 = 0;
+    if (number1) {
+      console.log("X is a truthy value")
+    } else {
+      console.log("X is a falsey value")
+    }
+    const number2 = 5;
+    if (number2 > 2 && number2 < 4) {
+      console.log("X is a truthy value")
+    } else {
+      console.log("X is a falsey value")
+    }
+
+    // if / else if statement
+    let errorCode = 6;
+
+    if (!errorCode) {
+      console.log("Success")
+    } else if (errorCode >=1 && errorCode <=3 ) {
+      console.log("File parth Broken")
+      
+    } else {
+      console.log("error code is not valid")
+    }
+
+    // swtich statement
+
+    //swtich (variable, value) {
+      //case (value1, variable):
+        //code to execute if value 1 === value;
+        //break;
+      //case (value2, variable):
+        //code to execute if value 2 === value;
+        //break;
+        //default:
+        // code to execute if none of the cases are true/valod
+
+    //}
+    
+
+    errorCode = 2;
+    switch (errorCode) {
+      case 0: 
+        console.log("Success")
+        break;
+      case 1: 
+        console.log("File parth Broken")
+        break;
+      case 2: 
+        console.log("File not found")
+        break;
+      case 3: 
+        console.log("could not create file")
+        break;
+      default:
+        console.log("Error Code is not valid");
+    }
+
+
+  </script>
+  
+</body>
+</html>

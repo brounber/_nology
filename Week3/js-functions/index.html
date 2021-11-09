@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS-Funtions</title>
+</head>
+<body>
+  
+</body>
+  <script>
+    function noArguements() {
+      return 13;
+    }
+
+    let x = 2;
+
+    const value = noArguements();
+    console.log(value);
+
+    function printMe(something) {
+      console.log(something);
+      return something;
+    }
+
+    const output = printMe("Hello, World", "Good Bye");
+    console.log(output);
+
+
+    // perimeter of a rectangle
+    function rectPerim(width, length) {
+      const perimeter = width * 2 + length * 2;
+      return perimeter;
+    }
+    console.log(rectPerim(10, 20));
+
+    function rectPerim(width, length) {
+      return width * 2 + length * 2;
+    }
+    console.log(rectPerim(10, 20));
+
+  </script>
+
+</html>
