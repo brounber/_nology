@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Function Challenge</title>
+</head>
+<body>
+  
+</body>
+  <script>
+
+    //Working with Circles
+    function circleArea(radius) {
+      return Math.PI * (radius**2);
+    }
+
+    function circleCircumference(radius) {
+      return 2* Math.PI * radius;
+    }
+
+    console.log(circleArea(10).toFixed(2));
+    console.log(circleCircumference(10).toFixed(2));
+
+    //Challenge: Years to Days & Second
+    function ageInDays(years) {
+      return years * 365;
+    }
+
+    console.log(ageInDays(32));
+
+    function ageInSeconds(years) {
+      return ageInDays(years)*(24*60*60);
+    }
+
+    console.log(ageInSeconds(32));
+
+    //Return the Remainder from Two Numbers
+    function remainder(firstNum, secondNum) {
+      return firstNum % secondNum;
+    }
+
+    console.log(remainder(-9, 45));
+
+    //Challenge: Basketball Points
+
+    function points(twoPointer, threePointer) {
+      return (2*twoPointer) + (3*threePointer);
+    }
+
+    console.log(points(3, 5));
+
+    //Less Than 100?
+    
+    function sumNum(firstNum, secondNum) {
+      const sumNum = firstNum + secondNum;
+      
+      if (sumNum < 100){
+        return true;
+      }
+      else {
+        return false;
+      }
+    }
+    console.log(sumNum(22, 15));
+
+
+  </script>
+</html>
