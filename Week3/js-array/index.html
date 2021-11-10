@@ -9,4 +9,62 @@
 <body>
   
 </body>
+  <script>
+    const student = ["Kenny" , "Jay A.", "Ben", "Roberto", "Raf", "Jay Y."];
+    const newArray = Array(6).fill(0)
+    const newNewArray = [];
+
+    console.log("First Student:", student[0]);
+    console.log("Last Student:", student[5]);
+    console.log("?:", student[student.length-1]);
+    // index [student.length -1] is alwways going to be last element 
+
+    //array methods
+    // how to add elements inside an array
+
+    student.push("Remi");
+    console.log(student);
+    student.push("Calum");
+    console.log(student);
+    student.push(true);
+    console.log(student);
+    student.push(55);
+    console.log(student);
+    student.pop();
+    console.log(student);
+    student.pop();
+    console.log(student);
+
+    // how to add at the begininig of an array 
+    student.unshift("Dan", "Emily", "Jordan");
+    console.log(student);
+
+    const formerFirstStudent = student.shift();
+    console.log("After shift:", formerFirstStudent);
+    console.log(student);
+
+
+    // How to check for values inside an array?
+
+    console.log("Index at which Ben is in the array",student.indexOf("Ben"));
+    console.log("Index at which Ben is in the array",student.indexOf("Aidan"));
+    console.log(student);
+
+    // dup 
+    student.push("John");
+    console.log(student);
+    student.push("John");
+    console.log(student);
+
+    console.log("Index at which John is in the array",student.indexOf("John"));
+    console.log(student);
+
+    //how to check if a value is present in an array (case sensative) gives boolean value
+
+    console.log(student.includes("Raf"));
+    console.log(student.includes("Jordan", 2));
+       
+
+  </script>
+
 </html>

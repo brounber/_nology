@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Arrays</title>
+</head>
+<body>
+  
+</body>
+  <script>
+//Listing Hobbies
+  const hobbies = ["Hobbies1", "Hobbies2", "Hobbies3"]
+
+  console.log("My hobbies are:", hobbies);
+
+  const removedHobbie = hobbies.shift();
+  console.log("After removing ", removedHobbie, " from the array, you are left with:", hobbies)
+
+  const lenthOfArray = hobbies.length;
+  console.log("The length of the array is:", lenthOfArray)
+
+  const newHobby = "Hobbies4"
+  hobbies.push(newHobby);
+  console.log("added the new", newHobby, "to the array", hobbies)
+
+  console.log("My hobbies are:", hobbies.join(", "));
+
+  // Challenge: Grocery Lists
+
+  const groceryItems = ["Items1", "Items2", "Items3", "Items4", "Items5"] 
+  console.log(groceryItems.join("|"));
+
+
+
+
+       
+
+  </script>
+</html>
