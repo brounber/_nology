@@ -11,7 +11,7 @@
 </body>
 <script>
 
-const stringWithUppercaseLetters = "I Am A String With Uppercase Letters";
+/*const stringWithUppercaseLetters = "I Am A String With Uppercase Letters";
 const regex = /([A-Z])/g;
 const hasUpperCaseLetters = regex.test(stringWithUppercaseLetters);
 
@@ -21,6 +21,17 @@ const getHasUppercaseLetters = () => {
   return hasUpperCaseLetters;
 };
 
-console.log(hasUpperCaseLetters);
+console.log(hasUpperCaseLetters);*/
+const nameTagOption = "Timothy";
+
+const getIsValidOnNameTag = () => {
+  const firstLetter = nameTagOption.charAt(0);
+  const lengthOfCharacter = nameTagOption.length <= 8;
+  const isValid = (lengthOfCharacter && firstLetter === firstLetter.toUpperCase(0));
+  return isValid;
+ };
+ console.log(getIsValidOnNameTag());
+ console.log(isValid);
+
 </script>
 </html>
