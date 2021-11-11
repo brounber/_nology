@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Loop2</title>
+</head>
+<body>
+  
+</body>
+  <script>
+  // FOR loops
+
+    for (let i = 0; i < 5; i++) {
+      console.log(`The number is ${i}`);
+    }
+
+    /*for (let i = 0; i < 5; ++i) {
+      console.log(`The number is ${i}`);
+    }*/
+
+    for (let i = 0; i < 0; ++i) {
+      console.log("my for look has gone through one iteration");
+    }
+
+    for (let i = 0; i > 0; ++i) {
+      console.log("my for look has gone through one iteration");
+    }
+
+    // how to use for loos on arays
+    const coaches = ["Calum", "Aidan", "Remi",]
+
+    for (let index = 0; index < coaches.length; index++) {
+      console.log(`Hello ${coaches[index]}`);
+    }
+
+    // how to create new arrays from old arrays using for loops?
+    const upperCasedCoaches = [];
+
+    // I want an array containing all my coach's names in ALL caps
+
+    for (let index = 0; index < coaches.length; ++index) {
+      const upperCaseName = coaches[index].toUpperCase();
+      upperCasedCoaches.push(upperCaseName);
+      console.log(upperCasedCoaches);
+    }
+    console.log(upperCasedCoaches);
+
+
+    const primeNumber = [1, 2, 3, 5, 7, 11, 13, 17]
+    
+    // I want an array of numbers that contains the value of the first 8 prime numbers squared
+
+    
+    
+
+    /*const numbersToPwOfThemSelves = (array) => {
+      const newArray= [];
+      for (let index = 0; index <array.length; ++index) {
+        newArray.push(array[index]**array[index]);
+      }
+      return newArray;
+    }
+    console.log(numbersToPwOfThemSelves(primeNumber));
+
+
+    const student = ["Kenny", "Jay.A", "Raf"];
+
+    const reverseArray = [];
+    for (let index=student.length - 1; index >=0; --index) {
+      reverseArray.push(student[index]);
+    }
+    console.log(reverseArray)*/
+
+    /*const shopingList = ["milk", "watermelon", "eggs", "soap", "butter", "apples", "ice-cream"]
+
+    const addNumberToList=["1. ", "2. ", "3. ", "4. ", "5. ", "6. ", "7. ",]
+    for(let index=0; index<shopingList.length; ++index) {
+      addNumberToList.concat(shopingList[index]);
+    }
+    console.log(addNumberToList)*/
+
+    /*const shopingList = ["milk", "watermelon", "eggs", "soap", "butter", "apples", "ice-cream"]
+    const newList = [];
+    addNumberToList =[];
+    for(let index=0; index < shopingList.length; index++) {
+      
+      console.log(`${index + 1}. ${shopingList[index]}`);
+    }*/
+
+    //how do we exit our for loops early?
+
+    const names = ["Dan", "Tom", "Joe"];
+    const nameToFind = "Tom"
+
+    let hasBeenFound = false;
+
+    for (let i = 0; i< names.length; ++i) {
+      if (names[i] === nameToFind) {
+        hasBeenFound = true;
+        break;
+      }
+    }
+    if (hasBeenFound) {
+      console.log(`${nameToFind} was found in names array`);
+    }
+    else {
+      console.log(`${nameToFind} was NOT found in names array`);
+    }
+
+    let myString = "This is a sentence. This is an other sentence"
+
+    let count = 0;
+    const vowels = ["a", "e", "i", "o", "u"];
+
+    // I want to count the number of consonants 
+
+    for (let i = 0; i < myString.length; ++i) {
+      const char = myString.charAt(i);
+
+      if (vowels.includes(char) || char === " ") {
+        continue;
+      }
+
+      if (char === ".") {
+        break;
+      }
+
+      count += 1;
+      console.log(count);
+
+    }
+
+
+    console.log(count);
+  </script>
+
+</html>
