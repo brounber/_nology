@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+    /*
+    ### MVP
+-   Create a variable with a string of your choice
+-   Loop through the letters in this string and build a new string
+-   If the current index is odd, capitalize the letter before adding it to the new string
+
+### Bonus
+-   If the current index is even increment the letter
+    -   E.g: `a becomes b`, `d becomes e`, `t becomes u`
+    -   Final: `z becomes a`
+    */
+
+
+    const oldstring = "This is a string";
+    newString = ""
+
+    /*for (let index = 0; index < strong.length; index +=2) {
+      const upperCaseName = strong[index].toUpperCase();
+      upperCaseArray.push(upperCaseName);
+
+    }
+    console.log(upperCaseArray);*/
+
+
+    for ( let index = 0; index < oldstring.length; index ++) {
+      if (index % 2 == 0) {
+        let newCharCode = oldstring.charCodeAt(index) + 1;
+        if (newCharCode === 123) {
+          newCharCode = 97;
+        }
+        newString += String.fromCharCode(newString);
+      } else {
+        newString += oldstring.charAt(index).toUpperCase();
+      }
+    }
+
+    console.log(newString)
+
+  </script>
+  
+</body>
+</html>
