@@ -8,43 +8,81 @@
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <title>Home</title>
   <header class="header" id="header">
-   <nav class="nav container"></nav>
-    <a href="#" class="nav__logo">Raf Rahman</a>
-    <div class="nav__menu" id="nav__menu">
-      <ul class="nav__list--grid">
-        <li class="nav__item">
-          <a href="#Home" class="nav__link">
-            Home
-          </a>
-        </li>
-        <li class="nav__item">
-          <a href="#About" class="nav__link">
-            About
-          </a>
-        </li>
-        <li class="nav__item">
-          <a href="#Skills" class="nav__link">
-            Skills
-          </a>
-        </li>
-        <li class="nav__item">
-          <a href="#Portfolio" class="nav__link">
-            Portfolio
-          </a>
-        </li>
-        <li class="nav__item">
-          <a href="#ContactMe" class="nav__link">
-            ContactMe
-          </a>
-        </li>
-      </ul>
-    </div>
+   <nav class="nav container">
+    <a href="#" class="nav__logo">Raf</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#Home" class="nav__link">
+              <i class="uil uil-house-user nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#About" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#Skills" class="nav__link">
+              <i class="uil uil-clipboard-alt nav__icon"></i></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#Portfolio" class="nav__link">
+              <i class="uil uil-book-alt nav__icon"></i>Portfolio
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#ContactMe" class="nav__link">
+              <i class="uil uil-at nav__icon"></i>ContactMe
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav--close"></i>
+      </div>
+      <div class="nav__btns">
+        <div class="nav__toggle" id="nav__toggle">
+          <i class="uil uil-bars"></i>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <!--==================== MAIN ====================-->
   <main class="main">
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.linkedin.com" target="_blank" class="home__social-icon">
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a href="https://www.github.com" target="_blank"  class="home__social-icon">
+                <i class="uil uil-github"></i>
+              </a>
+              <a href="https://www.twitter.com" target="_blank"  class="home__social-icon">
+                <i class="uil uil-twitter"></i>
+              </a>
+            </div>
+            <!--check this again later-->
+            <div class="home-img">
+              <image class="home--img" href="./img/brounber.png"></image>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title"> "Hello World", I'm Raf</h1>
+              <h3 class="home__subtitle">A Father and Frontend Developer</h3>
+              <p class="home__description">Remeber to add description</p>
+              <a href="#Contact" class="button button--felx"><i class="uil uil-at button__icon"></i>Contact Me</a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#About" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            </a>
+
+          </div>
+        </div>
           
       </section>
 
