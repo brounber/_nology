@@ -96,3 +96,20 @@ console.log(mySome(nums,(n) => n%2));
 console.log(mySome(nums,(n) => n%2 === 0));
 
 console.log(nums.some(n=> n%2), nums.some(n => n%2 === 0), nums.some(n=> n<0));
+
+
+//reduce
+// most cases we use reduce when we want an output htat is not an array
+
+const myReduce = (array, callback, accumulator) => {
+  for (let i = 0; i < array.length; ++i) {
+    accumulator = callback(accumulator, array[i]);
+  }
+  return accumulator;
+}
+
+console.log("Using myReduce:", myReduce(nums, (accumulator, number) => accumulator + number,0))
+
+console.log("using myReduce", myReduce(["R", "E", "M", "I"], (acc,char) => `${acc}${char}`, ""))
+
+console.log("using JS Reduce():", nums.reduce((acc, number) => acc + number, 0), ["R", "E", "M", "I"].reduce((acc,letter) => `${acc}${letter}`, ""))
