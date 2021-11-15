@@ -113,3 +113,53 @@ console.log("Using myReduce:", myReduce(nums, (accumulator, number) => accumulat
 console.log("using myReduce", myReduce(["R", "E", "M", "I"], (acc,char) => `${acc}${char}`, ""))
 
 console.log("using JS Reduce():", nums.reduce((acc, number) => acc + number, 0), ["R", "E", "M", "I"].reduce((acc,letter) => `${acc}${letter}`, ""))
+
+
+
+const booleanArr = [true, true, false, false, true];
+const removeFalseValues = (booleanArr) => {
+
+  return booleanArr.filter((boolean) => boolean == true);
+};
+
+console.log(removeFalseValues(booleanArr));
+
+const numbersArr=[1, .5, .7, .25];
+
+const createPercentageList = (numbersArr) => {
+
+  return numbersArr.map((number) => `${number*100} %`);
+}
+
+console.log(createPercentageList(numbersArr));
+
+
+
+const possessionsArr =["shoes", "jacket", "belt"];
+const name = "disco";
+
+
+
+const createListOfPoessessions = (possessionsArr, name) => {
+   
+  return possessionsArr.map((possessionsArr) => name + " "+ possessionsArr)
+};
+
+console.log(createListOfPoessessions(possessionsArr));
+
+
+const numberString = "1+2+3+4+5"
+ 
+
+const createOddEvenArray = (numberString) => {
+  const arraySplit = numberString.split("+");
+  arraySplit.map((number) => Number);
+
+  
+  
+  return arraySplit;
+};
+
+console.log(createOddEvenArray(numberString));
+
+
