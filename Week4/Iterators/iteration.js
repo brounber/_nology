@@ -163,3 +163,14 @@ const createOddEvenArray = (numberString) => {
 console.log(createOddEvenArray(numberString));
 
 
+const string = " 22 $$He LL--O!%^& ";
+const formatString = (string) => {
+  const regex = /([A-Za-z])/g;
+  const combinedString = regex.join((string) => string);
+ 
+   return combinedString;
+ };
+
+ console.log(formatString(string))
+
+
