@@ -8,15 +8,25 @@
   <title>Document</title>
 </head>
 <body>
+  <style>
+  * {
+    background: black;
+  }
+  </style>
+  
 <script>
   
+  
+let itemsArr = ["Tony","John","Dave"];
 
-const setUserName = (user, username) => {
-  return !hasUserName ? false : (user.username = username);
+ const moveFirstAndLastItems = (itemsArr) => {
+  const result = [...itemsArr];
+
+  return result;
+;
 };
 
-console.log(setUserName(user, username));
-
+console.log(moveFirstAndLastItems(itemsArr));
 </script>
 </body>
 </html>
