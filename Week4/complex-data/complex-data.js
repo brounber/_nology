@@ -59,9 +59,9 @@ return coach;
 }
 
 console.log(
-  "Creating an array of fullNames:", coaches.map(coach) => `${coach.firstName} is ${coach.age} years old`),
+  "Creating an array of fullNames:", coaches.map((coach) => `${coach.firstName} is ${coach.age} years old`)),
 
 
 console.log(
-  "add ages of all the coaches:", coaches.reduce((acc, coach) => acc  + coach.age, 0);
+  "add ages of all the coaches:", coaches.reduce((acc, coach) => acc  + coach.age, 0)
 );
