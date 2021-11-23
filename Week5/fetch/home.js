@@ -3,6 +3,7 @@
 
 // how do we get data from an APU
 // >> fetch
+// needs await needs to be in an async function 
 
 const handler = async() => {
   const responsePromise = fetch('https://catfact.ninja/breeds');
