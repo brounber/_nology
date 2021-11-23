@@ -35,3 +35,4 @@ const concatPromise = (left, right, delimiter = "+", timeout = 1000) => {
 concatPromise("Remi", "HOEPPE", "|||",2000).then((results)=>{
   console.log(result);
 });
+
