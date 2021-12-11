@@ -1,20 +1,24 @@
 import style from "./Card.module.scss";
-import Home from "./../../Container/Home"
+import CardList from "../../Container/CardList"
 import PropTypes from "prop-types";
+import { useState } from "react";
 
 
-const Card = ({title, desc, number}) => {
-  let numberJsx = 
-  number !== undefined
-  ? <p className={style.Card_Desc}>The number is {number}</p>
-  : (<></>);
+const Card = ({title, textContent, id}) => {
+  const [isPink, setPink] = useState(true);
+
+  const classes = isPink ? [style.Card, style.Card__background_pink] : [style.Card];
+
+  const handleButtonClick = () => {
+    console.log(isPink)
+    setPink(!isPink)
+    console.log(`card ${id} has been updated`)
+  };
   return (
-    <div>
-      <section className={style.Card}>
-        <h1 className={style.Card_Title}>{title}</h1>
-        <p className={style.Card_Desc}>{desc}</p>
-        {numberJsx}
-      </section>
+    <div className={classes.join(" ")}>
+      <h3>{title}</h3>
+      <p>{textContent}</p>
+      <button onClick={handleButtonClick}>Change Background</button>
     </div>
   )
 }
@@ -23,11 +27,11 @@ export default Card
 
 Card.propTypes = {
   title: PropTypes.string,
-  desc: PropTypes.string,
-  number: PropTypes.number,
+  textContent: PropTypes.string,
+  
 }
 
-Card.defaultProps = {
-  title: "This is my default title",
-  desc: "This is my default description"
-}
+// Card.defaultProps = {
+//   title: "This is my default title",
+//   desc: "This is my default description"
+// }

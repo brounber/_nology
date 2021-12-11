@@ -1,2 +1,2 @@
-import Home from "./Home"
-export default Home;
+import CardList from "./CardList"
+export default CardList;
