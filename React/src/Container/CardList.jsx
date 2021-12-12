@@ -3,18 +3,25 @@ import style from "./CardList.module.scss";
 import Card from "../Components/Card";
 
 
-const CardList = ({postList}) => {
+const CardList = ({facts}) => {
   return (
-    <div className={style.Home}>
-      {postList.map((post, index) => {
-        return (
-          <Card key={index} id={index +1} title={post.title} textContent={post.textContent} 
-          />
-
-        )
+    <div>
+      {facts.map(fact => {
+        return <Card text={fact.fact} />
       })}
     </div>
-  )
+  );
 };
 
 export default CardList
+
+
+ // <div className={style.Home}>
+    //   {postList.map((post, index) => {
+    //     return (
+    //       <Card key={index} id={index +1} title={post.title} textContent={post.textContent} 
+    //       />
+
+    //     )
+    //   })}
+    // </div>
