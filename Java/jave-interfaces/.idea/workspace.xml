@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff657acb-63b8-4758-8a92-94bb251e4bd9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/src/main/java/org/example/Fullname.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/src/main/java/org/example/MathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/src/main/java/org/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cal-intro/src/main/java/org/example/findCircleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-arrays/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-arrays/src/main/java/org/example/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-arrays/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-hashmap/target/test-classes/org/example/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-list/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/src/main/java/org/example/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/target/classes/org/example/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/target/classes/org/example/ArrayUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-loops/target/test-classes/org/example/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vehicles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../E-Commerce" beforeDir="false" afterPath="$PROJECT_DIR$/../../E-Commerce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MorseCode" beforeDir="false" afterPath="$PROJECT_DIR$/../../MorseCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Portfolio-React" beforeDir="false" afterPath="$PROJECT_DIR$/../../Portfolio-React" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../js-challenge/js-challenges" beforeDir="false" afterPath="$PROJECT_DIR$/../../js-challenge/js-challenges" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/About.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/About.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Project.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Service.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/Service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/img/logo (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/img/portfolio-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio-you-tube-project-main/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/about/About.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/about/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/contact/Contact.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/contact/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/intro/Intro.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/intro/intro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/product/Product.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/product/product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/productList/ProductList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/productList/productList.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/toggle/Toggle.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/components/toggle/toggle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/img/address.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/img/award.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/img/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/img/moon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/img/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/img/sun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube-react-portfolio-website/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="23LZhjQPOD9tTrMqkgmHGkzNGAx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="jave-interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff657acb-63b8-4758-8a92-94bb251e4bd9" name="Changes" comment="" />
+      <created>1641515450833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641515450833</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
