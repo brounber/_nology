@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bcaf4977-26fa-48df-b933-dc0af74ff757" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../FantasyLeagues/src/main/java/org/example/BasketballPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FantasyLeagues/src/main/java/org/example/FootballPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FantasyLeagues/src/main/java/org/example/League.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FantasyLeagues/src/main/java/org/example/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FantasyLeagues/src/main/java/org/example/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PrintArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Abstruction/src/main/java/org/example/MyChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Abstruction/src/main/java/org/example/MyParentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Abstruction/src/main/java/org/example/Podcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Abstruction/src/main/java/org/example/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Abstruction/src/main/java/org/example/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/src/main/java/org/example/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/src/main/java/org/example/Cohort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Streams/src/main/java/org/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/src/main/java/org/example/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java-Testing/src/test/java/org/example/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cardProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cardProject/src/main/java/org/example/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cardProject/src/main/java/org/example/CardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cardProject/src/main/java/org/example/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cardProject/src/main/java/org/example/Snap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-class/src/main/java/org/example/Abstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-class/src/main/java/org/example/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-class/src/main/java/org/example/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-class/src/main/java/org/example/LateGlass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-class/src/main/java/org/example/Mug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-class/src/main/java/org/example/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-whiteboard/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-whiteboard/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-whiteboard/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-whiteboard/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-whiteboard/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-whiteboard/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-whiteboard/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-whiteboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-whiteboard/src/main/java/org/example/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jave-interfaces/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jave-interfaces/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MorseCode" beforeDir="false" afterPath="$PROJECT_DIR$/../../MorseCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Portfolio-React" beforeDir="false" afterPath="$PROJECT_DIR$/../../Portfolio-React" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../js-challenge/js-challenges" beforeDir="false" afterPath="$PROJECT_DIR$/../../js-challenge/js-challenges" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mothdx-client-project" beforeDir="false" afterPath="$PROJECT_DIR$/../../mothdx-client-project" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="23ZURbJtdzdXkJGuDBtdYVWiYyS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-cardProject" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="Generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcaf4977-26fa-48df-b933-dc0af74ff757" name="Changes" comment="" />
+      <created>1641941100521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641941100521</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
